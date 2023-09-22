@@ -7,8 +7,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open bone.html",
-            "file": "f:\\explorer\\bone.html"
+            "name": "Open ${fileBasename}",
+            "file": "f:\\explorer\\${fileBasename}"
         }
     ]
 }
