@@ -5,14 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img decoding="async" src=".\images\75.png" width="300" title="天秤座图标">
+    <!-- <img decoding="async" src=".\images\75.png" width="300" title="天秤座图标"> -->
+    <link rel="shortcut icon" href="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollectionActive.png"
+        type="image/x-icon">
     <title>Libra</title>
+    <style>
+        /* h1 {
+            color: rgb(67, 19, 199);
+            background-color: chartreuse;
+        } */
+        ul{
+            background-color: chartreuse;
+        }
+        ol{
+            background-image: url(/images/R123.jpg);
+        }
+        body{
+            background-image: url(./images/R123.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>智能计量系统</h1>
+    <h1 id="标记">智能计量系统</h1>
     <hr>
-    <p><i>定时、在线、自动</i></p>
+    <p id="pear"><i>定时、在线、自动</i></p>
     <h2>云服务器</h2>
     <hr>
     <p><ins>4G、NBiot、<del>2G</del></ins></p>
@@ -77,9 +96,44 @@
         <tr>
             <td>总数</td>
             <td>合计</td>
+            <td colspan="2"></td>
         </tr>
     </table>
+    <!-- 文本显示框 -->
+    文本显示框:
+    <br>
+    <input type="text" name="输入用户名" id="123" placeholder="邮箱地址">
+    <br>
+    密码框：
+    <br>
+    <input type="password" name="" id="">
+    <br>
+    单选框
+    <input type="radio" name="" id="">
+    <br>
+    <input type="color">
+    <br>
+    <input type="button" value="登录">
+    <input type="button" value="忘记密码">
+    <input type="file" name="" id="">
+    <br>
+    <input type="datetime" name="" id="">
+    <div class="login-mod">
+        <h2>
+            登录界面
+        </h2>
+
+    </div>
 
 </body>
 
 </html>
+<style>
+    #pear{
+        color: rgb(195, 28, 218);
+    }
+    #标记{
+        background-color: rgb(190, 227, 23);
+        text-align: center;
+    }
+</style>
