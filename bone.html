@@ -14,13 +14,15 @@
             color: rgb(67, 19, 199);
             background-color: chartreuse;
         } */
-        ul{
-            background-color: chartreuse;
-        }
-        ol{
+        /* ul {
+            background-color: rgb(94, 158, 30,0.5);
+        } */
+
+        ol {
             background-image: url(/images/R123.jpg);
         }
-        body{
+
+        body {
             background-image: url(./images/R123.jpg);
             background-repeat: no-repeat;
             background-position: center;
@@ -34,7 +36,10 @@
     <p id="pear"><i>定时、在线、自动</i></p>
     <h2>云服务器</h2>
     <hr>
-    <p><ins>4G、NBiot、<del>2G</del></ins></p>
+    <div id="cu">
+        <p><ins>4G、NBiot、<del>2G</del></ins></p>
+    </div>
+
     <a href="https://www.baidu.com/">百度一下</a>
     <a href="https://www.bing.com/new"><del>newbing</del></a>
     <br>
@@ -129,11 +134,24 @@
 
 </html>
 <style>
-    #pear{
+    #pear {
         color: rgb(195, 28, 218);
     }
-    #标记{
-        background-color: rgb(190, 227, 23);
+
+    #标记 {
+        background-color: rgba(190, 227, 23, 0.5);
         text-align: center;
+    }
+    #cu{
+        position: relative;
+        top: 500px;
+        left: 1000px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        background-color: #2e630d;
     }
 </style>
